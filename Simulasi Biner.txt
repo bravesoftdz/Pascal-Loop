@@ -1,0 +1,15 @@
+Des = 5
+Desim = 5
+bin=''
+Des mod 2 = 5 mod 2 = 1 => bin = 1
+Des = 5 div 2 = 2
+Des = 0?  tidak
+
+Des mod 2 = 2 mod 2 = 0 => bin = 01
+Des = 2 div 2 = 1
+Des = 0?  tidak
+
+Des mod 2 = 1 mod 2 = 1 => bin = 101
+Des = 1 div 2 = 0
+Des = 0?  ya
+ 

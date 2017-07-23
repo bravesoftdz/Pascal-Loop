@@ -1,0 +1,23 @@
+PROGRAM a_pangkat;
+uses crt;
+VAR
+Base, i, mulai, akhir :INTEGER;
+BEGIN
+  clrscr;
+  write('Masukkan bilangan pokok = ');
+  readln(Base);
+  WRITE('Masukkan mulai pangkat:');
+  READLN(mulai);
+  WRITE('Masukkan akhir pangkat:');
+  READLN(akhir);
+  WRITELN;
+  WRITELN('Bilangan ',base,' pangkat');
+FOR i := mulai TO akhir DO
+  BEGIN
+   WRITE(i:3);
+   WRITELN(EXP(i*LN(Base)):20:0)
+  END;
+WRITELN;
+WRITELN('Press ENTER to continue..');
+READLN
+END.

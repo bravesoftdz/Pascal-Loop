@@ -1,0 +1,15 @@
+program looping1;
+uses winCrt;
+var N,i,jum :integer;     
+ 
+begin       
+clrscr;        
+write('Baca nilai : ');readln(N);
+for i:= 1 to N-1 do     
+begin        
+  write(i,' + ');
+  jum:=jum+i;      
+end;
+jum:=jum+N;
+write(N,' = ',jum);
+end.
